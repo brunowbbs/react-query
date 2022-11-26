@@ -1,8 +1,9 @@
 import ReactLoading from "react-loading";
 import { Link } from "react-router-dom";
-import Form from "../../components/Form/indx";
-import api from "../../services/api";
 
+import Form from "../../components/Form";
+
+import api from "../../services/api";
 import { useUsers } from "../../services/hooks/useUsers";
 import { queryClient } from "../../services/queryClient";
 
