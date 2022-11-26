@@ -3,9 +3,10 @@ import { QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
 
 import Home from "./pages/Home";
-
 import Details from "./pages/Details";
+
 import Header from "./components/Header";
+
 import { queryClient } from "./services/queryClient";
 
 const App = () => {
